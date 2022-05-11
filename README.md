@@ -11,10 +11,13 @@ Contrua em [React JS](https://pt-br.reactjs.org/) uma aplicação seguindo o des
 ## O Esperado
 
 - Código Legível;
+- Bom entendimento das boas préticas com o ReactJs;
+- Utilização de functional componentes e react hooks;
 
 ## Diferencial
 
 - Responsividade;
 - Alterações para tornar a UI mais agradável;
+- Typescrypt;
 
 Qualquer dúvida, entre em contato! Boa sorte 😄
