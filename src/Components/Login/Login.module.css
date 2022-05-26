@@ -1,0 +1,85 @@
+* { box-sizing: border-box; }
+body{
+    background-color: rgba(77, 105, 255, 0.5);
+    background-color: #4D69FF;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+ 
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container .leftSide{
+    width: 60%;
+    opacity: 0.5;
+}
+
+.container .leftSide .bgImage{
+    width: 100%;
+}
+
+.container .rightSide{
+    flex: 1;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .rightSide .menuLogin{
+    margin-bottom: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .rightSide .menuLogin .title{
+    width: 343px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.container .rightSide .menuLogin label{
+    width: 348px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.container .rightSide .menuLogin input{
+    width: 340px;
+    height: 30px;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+}
+
+.container .rightSide .menuLogin button{
+    background-color: #4D69FF;
+    color: white;
+    margin-top: 65px;
+    width: 340px;
+    height: 37px;
+    border: 1px solid #4D69FF;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease .3s;
+
+}
+
+.container .rightSide .menuLogin button:hover{
+    background-color: #7186fa;
+}
+
+.container .rightSide .menuLogin .link{
+    margin-top: 9px;
+    color: #ababab;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+

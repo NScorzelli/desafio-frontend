@@ -1,0 +1,131 @@
+* { box-sizing: border-box; }
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    width: 1440px;
+    padding: 5px 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nomeUsuario{
+    padding-right: 10px;
+    font-size: 12px;
+    color: #9B9B9B;
+}
+
+.nomeEmpresa {
+    color: #4D69FF;
+    font-weight: bold;
+}
+
+.iconRight{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    flex:1;
+    background-color: #F7F7F7;
+    height: 1398px;
+}
+
+.container .dashMenu .dashNome{
+    font-size: 24px;
+    margin: 20px;
+    margin-left: 37px;
+    padding: 25px;
+}
+
+.container .dashMenu .menuCarossel{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container .dashMenu .menuCarossel li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 3%;
+    padding: 0 60px;
+    margin: 0 8px;
+    margin-left: 20px;
+    margin-right: 5px;
+    list-style-type: none;
+    font-size: 13px;
+    color: #9B9B9B;
+}
+
+.dashMoney{
+    color: #000000;
+    font-size: 24px;
+    margin-top: 5px;
+    font-weight: bold;
+
+}
+
+.container .receita{
+    font-size: 18px;
+    margin: 20px;
+    margin-left: 45px;
+    padding: 25px;
+}
+
+.container .receita .lbReceita{
+font-size: 18px;
+margin: 4px;
+}
+
+.gridFather{
+    display: flex;
+    align-items: center;
+    margin-left: -19px; 
+    margin-top: 20px;   
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.container .despesa{
+    font-size: 18px;
+    margin: 20px;
+    margin-left: 45px;
+    padding: 25px;
+}
+
+.container .receita .lbDespesa{
+font-size: 18px;
+margin: 4px;
+}
+
+.gridFather{
+    display: flex;
+    align-items: center;
+    margin-left: -19px; 
+    margin-top: 20px;   
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
